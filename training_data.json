@@ -1,0 +1,637 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Is anyone there?",
+                "Hello",
+                "Hello there",
+                "Whats up?",
+                "Howdy?",
+                "How you doing?"
+            ],
+            "responses": [
+                "Hello there!",
+                "Good to see you",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "greeting_quest",
+            "patterns": [
+                "How are you today?",
+                "How you doing?",
+                "How are you doing today?",
+                "How is it going on today?",
+                "How is everything today?"
+            ],
+            "responses": [
+                "I am doing great. Hope you are fine as well."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Ciao",
+                "Godspeed",
+                "Farewell",
+                "Adios",
+                "Adieu",
+                "Have a great day",
+                "Tata"
+            ],
+            "responses": [
+                "See you",
+                "Have a nice day",
+                "Bye!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Gracias",
+                "merci",
+                "danke",
+                "much obliged"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure",
+                "Very Welcome!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "askfood",
+            "patterns": [
+                "Anything to eat?",
+                "I could eat a horse",
+                "Famished",
+                "Ravenous",
+                "Feeling peckish",
+                "Can I have some food?",
+                "Do you have biryani?",
+                "Food for me?",
+                "Can I have anything to eat?",
+                "what do you have to eat?",
+                "I am hungry",
+                "Provide food",
+                "I need food",
+                "I want food",
+                "Do you serve food?",
+                "Get me food",
+                "Eat?",
+                "Food?",
+                "Lunch?",
+                "Dinner?",
+                "Breakfast?",
+                "Snacks?",
+                "Coffee?",
+                "Can I have some sweets?",
+                "I need some food",
+                "Give me food"
+            ],
+            "responses": [
+                "I understand that you are hungry. But sorry, I don't provide food",
+                "Find yourself some food",
+                "Awwww! Don't starve",
+                "Food first, Chat next! Scoot now!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it?",
+                "May I kow the time?",
+                "May I know what time is it now?",
+                "Time?",
+                "Time please?",
+                "What is the time?",
+                "What hour of the day is it?"
+            ],
+            "responses": [
+                "Time is"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "What should I call you?",
+                "What do people call you?",
+                "How do people call you?",
+                "How can I address you?",
+                "May I know your name?",
+                "Name please?",
+                "Tell me your name",
+                "How can I call you?",
+                "Say your name",
+                "Can I get your name?",
+                "Tell your name to me",
+                "I did not catch your name",
+                "I am terrible with names",
+                "Who are you?"
+            ],
+            "responses": [
+                "Hi! I'm Flexi",
+                "Hello! You can call me Flexi",
+                "Hi! My name's Flexi"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "place",
+            "patterns": [
+                "Where you from?",
+                "Where are you from?",
+                "What place are you from?",
+                "Are you from here?",
+                "Where do you live?",
+                "Where can I find you?",
+                "Do you live nearby?",
+                "Where do you stay?",
+                "Do you stay here?",
+                "Where do you live?"
+            ],
+            "responses": [
+                "Somewhere deep in your heart..."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "actionitem",
+            "patterns": [
+                "What do you do?",
+                "Do you have any information?",
+                "What information do you have?",
+                "Can I get any information?",
+                "What can you give me?",
+                "What can you provide me?",
+                "What useful information do you have?",
+                "What info do you have?",
+                "Can I get some info?",
+                "What info do you have?",
+                "What are you useful for?"
+            ],
+            "responses": [
+                "I can help in switching screens and maybe trigger some limited system functions"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "updatechatbot",
+            "patterns": [
+                "I have given you additional information. Can you update yourself?",
+                "Can you update yourself?",
+                "Can you train yourself again?",
+                "Are you upto date?",
+                "Update yourself",
+                "Update yourself now",
+                "Keep yourself updated",
+                "Please update yourself",
+                "Check if any updates are available.",
+                "Update now"
+            ],
+            "responses": [
+                "Updating myself now...", "I like to learn new things... Let me update myself"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "screen_wort_preparation_unit",
+            "patterns": [
+                "Take me to screen preparation unit",
+                "Take me to screen preparation unit",
+                "navigate to screen preparation unit",
+                "switch to screen preparation unit",
+                "change to screen preparation unit",
+                "shift to screen preparation unit",
+                "divert to screen preparation unit",
+                "redirect to screen preparation unit",
+                "Take me to preparation unit",
+                "Take me to preparation unit",
+                "navigate to preparation unit",
+                "switch to preparation unit",
+                "change to preparation unit",
+                "shift to preparation unit",
+                "divert to preparation unit",
+                "redirect to preparation unit",
+                "Take me to preparation unit screen",
+                "Take me to preparation unit screen",
+                "navigate to preparation unit screen",
+                "switch to preparation unit screen",
+                "change to preparation unit screen",
+                "shift to preparation unit screen",
+                "divert to preparation unit screen",
+                "redirect to preparation unit screen"
+            ],
+            "responses": [
+                "Switching to Wort Preparation Unit"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "screen_wort_processing_unit",
+            "patterns": [
+                "Take me to screen processing unit",
+                "Take me to screen processing unit",
+                "navigate to screen processing unit",
+                "switch to screen processing unit",
+                "change to screen processing unit",
+                "shift to screen processing unit",
+                "divert to screen processing unit",
+                "redirect to screen processing unit",
+                "Take me to processing unit",
+                "Take me to processing unit",
+                "navigate to processing unit",
+                "switch to processing unit",
+                "change to processing unit",
+                "shift to processing unit",
+                "divert to processing unit",
+                "redirect to processing unit",
+                "Take me to processing unit screen",
+                "Take me to processing unit screen",
+                "navigate to processing unit screen",
+                "switch to processing unit screen",
+                "change to processing unit screen",
+                "shift to processing unit screen",
+                "divert to processing unit screen",
+                "redirect to processing unit screen"
+            ],
+            "responses": [
+                "Switching to Wort Processing Unit"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "screen_fermentation_unit",
+            "patterns": [
+                "Take me to screen fermentation unit",
+                "Take me to screen fermentation unit",
+                "navigate to screen fermentation unit",
+                "switch to screen fermentation unit",
+                "change to screen fermentation unit",
+                "shift to screen fermentation unit",
+                "divert to screen fermentation unit",
+                "redirect to screen fermentation unit",
+                "Take me to fermentation unit",
+                "Take me to fermentation unit",
+                "navigate to fermentation unit",
+                "switch to fermentation unit",
+                "change to fermentation unit",
+                "shift to fermentation unit",
+                "divert to fermentation unit",
+                "redirect to fermentation unit",
+                "Take me to fermentation unit screen",
+                "Take me to fermentation unit screen",
+                "navigate to fermentation unit screen",
+                "switch to fermentation unit screen",
+                "change to fermentation unit screen",
+                "shift to fermentation unit screen",
+                "divert to fermentation unit screen",
+                "redirect to fermentation unit screen"
+            ],
+            "responses": [
+                "Switching to Fermentation Unit"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "screen_milling_unit",
+            "patterns": [
+                "Take me to screen milling unit",
+                "Take me to screen milling unit",
+                "navigate to screen milling unit",
+                "switch to screen milling unit",
+                "change to screen milling unit",
+                "shift to screen milling unit",
+                "divert to screen milling unit",
+                "redirect to screen milling unit",
+                "Take me to milling unit screen",
+                "Take me to milling unit screen",
+                "navigate to milling unit screen",
+                "switch to milling unit screen",
+                "change to milling unit screen",
+                "shift to milling unit screen",
+                "divert to milling unit screen",
+                "redirect to milling unit screen",
+                "Take me to milling unit",
+                "Take me to milling unit",
+                "navigate to milling unit",
+                "switch to milling unit",
+                "change to milling unit",
+                "shift to milling unit",
+                "divert to milling unit",
+                "redirect to milling unit"
+            ],
+            "responses": [
+                "Switching to Milling Unit"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "screen_beer_brewing_line",
+            "patterns": [
+                "Take me to beer brewing line screen",
+                "Take me to beer brewing line screen",
+                "navigate to beer brewing line screen",
+                "switch to beer brewing line screen",
+                "change to beer brewing line screen",
+                "shift to beer brewing line screen",
+                "divert to beer brewing line screen",
+                "redirect to beer brewing line screen",
+                "Take me to beer brewing overview screen",
+                "Take me to beer brewing overview screen",
+                "navigate to beer brewing overview screen",
+                "switch to beer brewing overview screen",
+                "change to beer brewing overview screen",
+                "shift to beer brewing overview screen",
+                "divert to beer brewing overview screen",
+                "redirect to beer brewing overview screen",
+                "Take me to brewing process overview screen",
+                "Take me to brewing process overview screen",
+                "navigate to brewing process overview screen",
+                "switch to brewing process overview screen",
+                "change to brewing process overview screen",
+                "shift to brewing process overview screen",
+                "divert to brewing process overview screen",
+                "redirect to brewing process overview screen",
+                "Take me to screen main",
+                "Take me to screen main",
+                "navigate to screen main",
+                "switch to screen main",
+                "change to screen main",
+                "shift to screen main",
+                "divert to screen main",
+                "redirect to screen main",
+                "Take me to main screen",
+                "Take me to main screen",
+                "navigate to main screen",
+                "switch to main screen",
+                "change to main screen",
+                "shift to main screen",
+                "divert to main screen",
+                "redirect to main screen"
+            ],
+            "responses": [
+                "Switching to Beer Brewing Process Overview Screen"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "germanlang",
+            "patterns": [
+                "Change Language to German",
+                "Switch to German",
+                "Change to German",
+                "Start listening in German"
+            ],
+            "responses": [
+                "Switching to German..."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "englishlang",
+            "patterns": [
+                "Change Language to English",
+                "Switch to English",
+                "Change to English",
+                "Start listening in English"
+            ],
+            "responses": [
+                "Switching to English..."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "button_line_start",
+            "patterns": [
+                "Click the start button",
+                "Engage start button",
+                "Click start button",
+                "Engage the start button",
+                "Click on start button",
+                "Click that start button on the screen",
+                "Launch the start button",
+                "Trigger the start button on screen",
+                "Start the process",
+                "Initiate the process",
+                "Start the line",
+                "Start process",
+                "Trigger the process",
+                "Initiate process"
+            ],
+            "responses": [
+                "Initiating Process"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "button_2",
+            "patterns": [
+                "Click the stop button",
+                "Engage stop button",
+                "Click stop button",
+                "Engage the stop button",
+                "Click on stop button",
+                "Click that stop button on the screen",
+                "Launch the stop button",
+                "Trigger the stop button on screen",
+                "stop the process",
+                "Initiate the process",
+                "stop the line",
+                "stop process",
+                "Halt process",
+                "Halt the process",
+                "Shut down the process",
+                "Stop"
+            ],
+            "responses": [
+                "Stopping Process"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "button_6",
+            "patterns": [
+                "Click the emmergency stop button",
+                "Engage emmergency stop button",
+                "Click  emmergencystop button",
+                "Engage the emmergency stop button",
+                "Click on emmergency stop button",
+                "Click that emmergency stop button on the screen",
+                "Launch the emmergency stop button",
+                "Trigger the emmergency stop button on screen",
+                "stop the process immediately",
+                "Stop immediately",
+                "Emmergency Stop",
+                "stop process immediately"
+            ],
+            "responses": [
+                "Emmergency Stop Attained"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "button_3",
+            "patterns": [
+                "Load type A",
+                "load batch a",
+                "load batch 1",
+                "load type 1",
+                "load type one",
+                "load batch one"
+            ],
+            "responses": [
+                "Loading Type A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "button_4",
+            "patterns": [
+                "Load type B",
+                "load batch b",
+                "load batch 2",
+                "load type 2",
+                "load type two",
+                "load batch two"
+            ],
+            "responses": [
+                "Loading Type B"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "check_positive_solventa",
+            "patterns": [
+                "Select the Solvent A",
+                "Select Solvent A",
+                "Prepare Solvent A"
+            ],
+            "responses": [
+                "Preparing Solvent A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "check_negative_solventa",
+            "patterns": [
+                "Deselect the Solvent A",
+                "Deselect Solvent A",
+                "Remove Solvent A"
+            ],
+            "responses": [
+                "Preparing Solvent A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "check_positive_solventb",
+            "patterns": [
+                "Select the Solvent B",
+                "Select Solvent B",
+                "Prepare Solvent B"
+            ],
+            "responses": [
+                "Preparing Solvent B"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "check_negative_solventb",
+            "patterns": [
+                "Deselect the Solvent B",
+                "Deselect Solvent B",
+                "Remove Solvent B",
+                "Deselect the Solvent Be",
+                "Deselect Solvent Be",
+                "Remove Solvent Be"
+            ],
+            "responses": [
+                "Preparing Solvent B"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "check_positive_solventc",
+            "patterns": [
+                "Select the Solvent C",
+                "Select Solvent C",
+                "Prepare Solvent C"
+            ],
+            "responses": [
+                "Preparing Solvent C"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "check_negative_solventc",
+            "patterns": [
+                "Deselect the Solvent C",
+                "Deselect Solvent C",
+                "Remove Solvent C"
+            ],
+            "responses": [
+                "Preparing Solvent C"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "donotswitch",
+            "patterns": [
+                "Do not Take me to screen one",
+                "Do not Take me to screen 1",
+                "Do not navigate to screen 1",
+                "Do not switch to screen 1",
+                "Do not change to screen 1",
+                "Do not shift to screen 1",
+                "Do not divert to screen 1",
+                "Do not redirect to screen 1",
+                "Dont Take me to screen one",
+                "Dont Take me to screen 1",
+                "Dont navigate to screen 1",
+                "Dont switch to screen 1",
+                "Dont change to screen 1",
+                "Dont shift to screen 1",
+                "Dont divert to screen 1",
+                "Dont redirect to screen 1",
+                "Do not Take me to screen two",
+                "Do not Take me to screen 2",
+                "Do not navigate to screen 2",
+                "Do not switch to screen 2",
+                "Do not change to screen 2",
+                "Do not shift to screen 2",
+                "Do not divert to screen 2",
+                "Do not redirect to screen 2",
+                "Dont Take me to screen two",
+                "Dont Take me to screen 2",
+                "Dont navigate to screen 2",
+                "Dont switch to screen 2",
+                "Dont change to screen 2",
+                "Dont shift to screen 2",
+                "Dont divert to screen 2",
+                "Dont redirect to screen 2"
+            ],
+            "responses": [
+                "Yeah I get it... testing me huh?",
+                "Okay, Not switching"
+            ],
+            "context_set": ""
+        }
+    ]
+}

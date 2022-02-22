@@ -1,0 +1,194 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Is anyone there?",
+                "Hello",
+                "Hello there",
+                "Whats up?",
+                "Howdy?",
+                "How you doing?"
+            ],
+            "responses": [
+                "Hello there!",
+                "Good to see you",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "greeting_quest",
+            "patterns": [
+                "How are you today?",
+                "How you doing?",
+                "How are you doing today?",
+                "How is it going on today?",
+                "How is everything today?"
+            ],
+            "responses": [
+                "I am doing great. Hope you are fine as well."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Ciao",
+                "Godspeed",
+                "Farewell",
+                "Adios",
+                "Adieu",
+                "Have a great day",
+                "Tata"
+            ],
+            "responses": [
+                "See you",
+                "Have a nice day",
+                "Bye!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Gracias",
+                "merci",
+                "danke",
+                "much obliged"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure",
+                "Very Welcome!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "askfood",
+            "patterns": [
+                "Anything to eat?",
+                "I could eat a horse",
+                "Famished",
+                "Ravenous",
+                "Feeling peckish",
+                "Can I have some food?",
+                "Do you have biryani?",
+                "Food for me?",
+                "Can I have anything to eat?",
+                "what do you have to eat?",
+                "I am hungry",
+                "Provide food",
+                "I need food",
+                "I want food",
+                "Do you serve food?",
+                "Get me food",
+                "Eat?",
+                "Food?",
+                "Lunch?",
+                "Dinner?",
+                "Breakfast?",
+                "Snacks?",
+                "Coffee?",
+                "Can I have some sweets?",
+                "I need some food",
+                "Give me food"
+            ],
+            "responses": [
+                "I understand that you are hungry. But sorry, I don't provide food",
+                "Find yourself some food",
+                "Awwww! Don't starve",
+                "Food first, Chat next! Scoot now!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "What time is it?",
+                "May I kow the time?",
+                "May I know what time is it now?",
+                "Time?",
+                "Time please?",
+                "What is the time?",
+                "What hour of the day is it?"
+            ],
+            "responses": [
+                "Time is"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "What should I call you?",
+                "What do people call you?",
+                "How do people call you?",
+                "How can I address you?",
+                "May I know your name?",
+                "Name please?",
+                "Tell me your name",
+                "How can I call you?",
+                "Say your name",
+                "Can I get your name?",
+                "Tell your name to me",
+                "I did not catch your name",
+                "I am terrible with names",
+                "Who are you?"
+            ],
+            "responses": [
+                "Hi! I'm Flexi",
+                "Hello! You can call me Flexi",
+                "Hi! My name's Flexi"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "place",
+            "patterns": [
+                "Where you from?",
+                "Where are you from?",
+                "What place are you from?",
+                "Are you from here?",
+                "Where do you live?",
+                "Where can I find you?",
+                "Do you live nearby?",
+                "Where do you stay?",
+                "Do you stay here?",
+                "Where do you live?"
+            ],
+            "responses": [
+                "Somewhere deep in your heart..."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "updatechatbot",
+            "patterns": [
+                "I have given you additional information. Can you update yourself?",
+                "Can you update yourself?",
+                "Can you train yourself again?",
+                "Are you upto date?",
+                "Update yourself",
+                "Update yourself now",
+                "Keep yourself updated",
+                "Please update yourself",
+                "Check if any updates are available.",
+                "Update now"
+            ],
+            "responses": [
+                "Updating myself now...", "I like to learn new things... Let me update myself"
+            ],
+            "context_set": ""
+        }
+    ]
+}

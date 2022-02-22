@@ -1,0 +1,93 @@
+{
+    "checkboxes": [
+            {
+                "checkBoxName": "Check box_1",
+                "nameToDisplay": "Solvent A",
+                "tagNegative": "check_negative_solventa",
+                "tagPositive": "check_positive_solventa"
+            },
+            {
+                "checkBoxName": "Check box_2",
+                "nameToDisplay": "Solvent B",
+                "tagNegative": "check_negative_solventb",
+                "tagPositive": "check_positive_solventb"
+            },
+            {
+                "checkBoxName": "Check box_3",
+                "nameToDisplay": "Solvent C",
+                "tagNegative": "check_negative_solventc",
+                "tagPositive": "check_positive_solventc"
+            }
+        ],
+    "buttons": [
+        {
+            "nameToDisplay": "Line Start",
+            "buttonName": "LINE_START",
+            "tag": "button_line_start"
+        },
+        {
+            "nameToDisplay": "Line Stop",
+            "buttonName": "Button_2",
+            "tag": "button_2"
+        },
+        {
+            "nameToDisplay": "Load Type A",
+            "buttonName": "Button_3",
+            "tag": "button_3"
+        },
+        {
+            "nameToDisplay": "Load Type B",
+            "buttonName": "Button_4",
+            "tag": "button_4"
+        },
+        {
+            "nameToDisplay": "EMG Stop",
+            "buttonName": "Button_6",
+            "tag": "button_6"
+        }
+    ],
+    "iofields": [
+        {
+            "ioFieldName": "IO field_1",
+            "tag": "ioset_field1",
+            "focusTag":"iofocus_field1"
+        },
+        {
+            "ioFieldName": "IO field_2",
+            "tag": "io_field2",
+            "focusTag":"iofocus_field2"
+        },
+        {
+            "ioFieldName": "IO field_3",
+            "tag": "io_field3",
+            "focusTag":"iofocus_field3"
+        }
+    ],
+    "screens": [
+        {
+            "screenName": "beer_brewing_line",
+            "nameToDisplay": "Beer brewing Overview",
+            "tag": "screen_beer_brewing_line"
+        },
+        {
+            "screenName": "milling_unit",
+            "nameToDisplay": "Milling Unit",
+            "tag": "screen_milling_unit"
+        },
+        {
+            "screenName": "wort_preparation_unit",
+            "nameToDisplay": "Wort Preparation Unit",
+            "tag": "screen_wort_preparation_unit"
+        },
+        {
+            "screenName": "wort_processing_unit",
+            "nameToDisplay": "Wort Processing Unit",
+            "tag": "screen_wort_processing_unit"
+        },
+        {
+            "screenName": "fermentation_unit",
+            "nameToDisplay": "Default Screen",
+            "tag": "screen_fermentation_unit"
+        }
+    ]
+}

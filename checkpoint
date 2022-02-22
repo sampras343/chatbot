@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/sampras/Videos/Chatbot_mqttintegration/Chatbot-askmeanything/model.tflearn"
+all_model_checkpoint_paths: "/home/sampras/Videos/Chatbot_mqttintegration/Chatbot-askmeanything/model.tflearn"
